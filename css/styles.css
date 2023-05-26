@@ -684,18 +684,19 @@ a:hover {
 
 .skill-mf span {
   color: #4e4e4e;
+
 }
 
-.skill-mf .progress {
-  background-color: #d7ebf8;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
+.icono-skill img{
+  width: 4rem;
+  margin: 1rem;
 }
 
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #48abec;
+@media (min-width: 768px) {
+  .icono-skill{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
 }
 
 /*======================================
@@ -707,6 +708,7 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  height: 28rem;
 }
 
 .service-box:hover .ico-circle {
@@ -771,6 +773,8 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  width: auto;
+  height: 17rem;
 }
 
 .work-box:hover img {
