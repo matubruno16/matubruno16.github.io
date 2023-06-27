@@ -175,6 +175,7 @@ a:hover {
   text-align: center;
 }
 
+
 .title-left:before {
   content: '';
   position: absolute;
@@ -184,7 +185,21 @@ a:hover {
   bottom: -12px;
   align-items: center;
 }
-
+.title-center {
+  font-size: 2rem;
+  position: relative;
+  color: #1B1B1B;
+  text-align: center;
+}
+.title-center:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #48abec;
+  width: 150px;
+  bottom: -12px;
+  align-items: center;
+}
 /*------/ Box /------*/
 
 .box-pl2 {
@@ -710,7 +725,7 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
-  height: 28rem;
+  height: auto;
 }
 
 .service-box:hover .ico-circle {
